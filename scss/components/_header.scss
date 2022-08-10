@@ -1,0 +1,38 @@
+/*---PAGINAS QUE NO TIENEN GRID--*/
+@import "../base/variables"
+
+header {
+    background-color: #03BCC4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+        width: 150px;
+        height: 150px;
+
+    }
+
+    nav {
+        ul {
+            li {
+                list-style: none;
+                display: inline-block;
+                margin: 20px;
+
+                a {
+                    text-decoration: none;
+                    color: $color-letras-menu;
+                    font-size: 30px;
+                    text-align: left;
+                    font-weight: bold;
+&:hover{
+    color: $color-white;
+}
+
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,120 @@
+/*---MAIN DE LOS QUE NO TIENEN GRID---*/
+@import "../base/variables"
+.hero {
+    p {
+        padding: 10px;
+        text-align: center;
+    }
+}
+
+main {
+    background-image: url(../img/welcome.png);
+    background-repeat: repeat;
+
+}
+
+.titulo__grammar {
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgb(255, 255, 99), white);
+
+    p {
+        padding: 10px;
+        text-align: center;
+
+
+    }
+
+    ul {
+        justify-content: space-evenly;
+        list-style: none;
+        margin: 20px;
+
+        a {
+            text-decoration: none;
+            font-size: 30px;
+            font-weight: bold;
+            list-style: none;
+            display: flex;
+            display: inline-block;
+
+            p {
+                color:$color-letras-menu;
+                
+
+            }
+
+        }
+
+    }
+}
+
+#simplepresent {
+    li {
+        list-style: none;
+        background-color: rgb(255, 255, 99);
+        text-align: center;
+        margin: 40px;
+
+        a {
+            text-decoration: none;
+            color: rgb(22, 4, 138);
+            font-size: 30px;
+            font-weight: bold;
+
+        }
+    }
+
+}
+
+
+
+#there {
+    li {
+        list-style: none;
+        background-color: rgb(255, 255, 99);
+        text-align: center;
+        margin: 40px;
+
+        a {
+            text-decoration: none;
+            color: rgb(22, 4, 138);
+            font-size: 30px;
+            font-weight: bold;
+
+        }
+    }
+}
+
+#futuro {
+    li {
+        list-style: none;
+        background-color: rgb(255, 255, 99);
+        text-align: center;
+        margin: 40px;
+
+        a {
+            text-decoration: none;
+            color: rgb(22, 4, 138);
+            font-size: 30px;
+            font-weight: bold;
+
+        }
+    }
+}
+
+#comparativos {
+    li {
+        list-style: none;
+        background-color: rgb(255, 255, 99);
+        text-align: center;
+        margin: 40px;
+
+        a {
+            text-decoration: none;
+            color: rgb(22, 4, 138);
+            font-size: 30px;
+            font-weight: bold;
+        }
+    }
+
+}

@@ -1,0 +1,18 @@
+@import "../base/variables"
+#pie {
+    background-color: #03BCC4;
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .logofooter {
+        width: 100px;
+        height: 100px;
+    }
+    div {
+        .logoredes {
+            width: 100px;
+            height: 100px;
+        }
+    }
+}
