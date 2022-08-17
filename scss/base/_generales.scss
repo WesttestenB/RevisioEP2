@@ -1,6 +1,6 @@
 /*----------PROPIEDADES GENERALES----------*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
-
+@import "./variables";
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -12,7 +12,7 @@ body {
 }
 
 h1 {
-    color: navy;
+    color: nth($colores, 2);
     font-weight: bold;
     font-size: 60px;
     letter-spacing: 2px;
@@ -20,19 +20,25 @@ h1 {
 }
 
 h2 {
-    color: rgb(250, 250, 251);
+    color: nth($colores, 4 );
 }
 
 h3 {
-    color: darkslategray
+    color: nth($colores, 5)
 }
 
 h4 {
-    color: cadetblue;
+    color: nth($colores, 6 )
 }
 
 p {
-    color: rgb(54, 48, 48);
+    color: nth($colores, 7);
     font-size: 30px;
     text-align: justify;
+}
+//* extends
+%flex{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
 }

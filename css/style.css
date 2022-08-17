@@ -1,5 +1,7 @@
 /*----------PROPIEDADES GENERALES----------*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap");
 body {
   font-family: 'Roboto', sans-serif; }
 
@@ -29,12 +31,49 @@ p {
   font-size: 30px;
   text-align: justify; }
 
-/*---PAGINAS QUE NO TIENEN GRID--*/
 header {
-  background-color: #03BCC4;
   display: flex;
   justify-content: space-between;
   align-items: center; }
+
+/*---PAGINAS QUE NO TIENEN GRID--*/
+/*----------PROPIEDADES GENERALES----------*/
+body {
+  font-family: 'Roboto', sans-serif; }
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; }
+
+h1 {
+  color: navy;
+  font-weight: bold;
+  font-size: 60px;
+  letter-spacing: 2px;
+  text-align: center; }
+
+h2 {
+  color: #fafafb; }
+
+h3 {
+  color: darkslategray; }
+
+h4 {
+  color: cadetblue; }
+
+p {
+  color: #363030;
+  font-size: 30px;
+  text-align: justify; }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+header {
+  background-color: #03BCC4; }
   header img {
     width: 150px;
     height: 150px; }
@@ -48,6 +87,8 @@ header {
       font-size: 30px;
       text-align: left;
       font-weight: bold; }
+      header nav ul li a:hover {
+        color: white; }
 
 /*---MAIN DE LOS QUE NO TIENEN GRID---*/
 .hero p {
@@ -76,13 +117,14 @@ main {
       display: flex;
       display: inline-block; }
       .titulo__grammar ul a p {
-        color: blue; }
+        color: #16048a; }
 
 #simplepresent li {
   list-style: none;
-  background-color: #ffff63;
   text-align: center;
-  margin: 40px; }
+  background-color: #ffff63;
+  margin: 40px;
+  border: 2px solid blue; }
   #simplepresent li a {
     text-decoration: none;
     color: #16048a;
@@ -91,9 +133,10 @@ main {
 
 #there li {
   list-style: none;
-  background-color: #ffff63;
   text-align: center;
-  margin: 40px; }
+  background-color: #ffff63;
+  margin: 40px;
+  border: 2px solid blue; }
   #there li a {
     text-decoration: none;
     color: #16048a;
@@ -102,9 +145,10 @@ main {
 
 #futuro li {
   list-style: none;
-  background-color: #ffff63;
   text-align: center;
-  margin: 40px; }
+  background-color: #ffff63;
+  margin: 40px;
+  border: 2px solid blue; }
   #futuro li a {
     text-decoration: none;
     color: #16048a;
@@ -113,14 +157,50 @@ main {
 
 #comparativos li {
   list-style: none;
-  background-color: #ffff63;
   text-align: center;
-  margin: 40px; }
+  background-color: #ffff63;
+  margin: 40px;
+  border: 2px solid blue; }
   #comparativos li a {
     text-decoration: none;
     color: #16048a;
     font-size: 30px;
     font-weight: bold; }
+
+/*----------PROPIEDADES GENERALES----------*/
+body {
+  font-family: 'Roboto', sans-serif; }
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; }
+
+h1 {
+  color: navy;
+  font-weight: bold;
+  font-size: 60px;
+  letter-spacing: 2px;
+  text-align: center; }
+
+h2 {
+  color: #fafafb; }
+
+h3 {
+  color: darkslategray; }
+
+h4 {
+  color: cadetblue; }
+
+p {
+  color: #363030;
+  font-size: 30px;
+  text-align: justify; }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
 
 #pie {
   background-color: #03BCC4;

@@ -1,10 +1,11 @@
-@import "../base/variables"
+@import "../base/generales";
+@import "../base/variables";
+@import "../base/mapas";
+@import "../base/mixin";
 #pie {
-    background-color: #03BCC4;
+    background-color: nth($list: $colores, $n:1 );
     margin: 0px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    @include flex (flex, space-around, center);
     .logofooter {
         width: 100px;
         height: 100px;

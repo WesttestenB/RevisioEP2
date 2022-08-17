@@ -1,11 +1,12 @@
 /*---PAGINAS QUE NO TIENEN GRID--*/
-@import "../base/variables"
+@import "../base/generales";
+@import "../base/variables";
+@import "../base/mapas";
 
 header {
-    background-color: #03BCC4;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    background-color:nth($colores, $n:1 );
+    @extend %flex;
+    
 
     img {
         width: 150px;
@@ -22,13 +23,13 @@ header {
 
                 a {
                     text-decoration: none;
-                    color: $color-letras-menu;
+                    color: nth($list: $colores, $n:3 );
                     font-size: 30px;
                     text-align: left;
                     font-weight: bold;
-&:hover{
-    color: $color-white;
-}
+                    &:hover {
+                        color: nth($colores, 8 );
+                    }
 
                 }
             }

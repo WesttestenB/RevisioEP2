@@ -1,5 +1,7 @@
 /*---MAIN DE LOS QUE NO TIENEN GRID---*/
-@import "../base/variables"
+@import "../base/variables";
+@import "../base/mapas";
+
 .hero {
     p {
         padding: 10px;
@@ -38,7 +40,7 @@ main {
             display: inline-block;
 
             p {
-                color:$color-letras-menu;
+                color:nth($colores, 3);
                 
 
             }
@@ -48,12 +50,14 @@ main {
     }
 }
 
+
 #simplepresent {
     li {
         list-style: none;
-        background-color: rgb(255, 255, 99);
         text-align: center;
-        margin: 40px;
+        background-color: map-get($boton, bg-boton);
+        margin: map-get($boton , margin);
+        border: map-get($boton , border-boton);
 
         a {
             text-decoration: none;
@@ -71,9 +75,10 @@ main {
 #there {
     li {
         list-style: none;
-        background-color: rgb(255, 255, 99);
         text-align: center;
-        margin: 40px;
+        background-color: map-get($boton, bg-boton);
+        margin: map-get($boton , margin);
+        border: map-get($boton , border-boton);
 
         a {
             text-decoration: none;
@@ -88,9 +93,10 @@ main {
 #futuro {
     li {
         list-style: none;
-        background-color: rgb(255, 255, 99);
         text-align: center;
-        margin: 40px;
+        background-color: map-get($boton, bg-boton);
+        margin: map-get($boton , margin);
+        border: map-get($boton , border-boton);
 
         a {
             text-decoration: none;
@@ -105,9 +111,10 @@ main {
 #comparativos {
     li {
         list-style: none;
-        background-color: rgb(255, 255, 99);
         text-align: center;
-        margin: 40px;
+        background-color: map-get($boton, bg-boton);
+        margin: map-get($boton , margin);
+        border: map-get($boton , border-boton);
 
         a {
             text-decoration: none;
