@@ -15,9 +15,12 @@ main {
 
 }
 
+/*---MAIN DE GRAMMAR---*/
 .titulo__grammar {
     width: 100%;
     background-image: linear-gradient(to bottom, rgb(255, 255, 99), white);
+
+
 
     p {
         padding: 10px;
@@ -40,8 +43,8 @@ main {
             display: inline-block;
 
             p {
-                color:nth($colores, 3);
-                
+                color: nth($colores, 3);
+
 
             }
 
@@ -124,4 +127,236 @@ main {
         }
     }
 
+}
+
+/*---MAIN DE VOCABULARY---*/
+.titulo__vocabulary {
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgb(255, 255, 99), white);
+
+    p {
+        padding: 10px;
+        text-align: center;
+
+
+    }
+
+    ul {
+        list-style: none;
+        margin: 20px;
+        justify-content: space-between;
+        text-align: center;
+
+        a {
+            text-decoration: none;
+            font-size: 30px;
+            font-weight: bold;
+            list-style: none;
+            display: flex;
+            display: inline-block;
+
+            p {
+                color: nth($colores, 3);
+            }
+        }
+    }
+}
+
+
+#morfi {
+    list-style: none;
+    text-align: center;
+
+    img {
+        margin: 40px;
+        border-radius: 10px;
+
+    }
+
+    li {
+        background-color: rgb(255, 255, 99);
+
+        a {
+            text-decoration: none;
+            color: rgb(22, 4, 138);
+            font-size: 30px;
+            font-weight: bold;
+
+        }
+
+    }
+}
+
+#salud {
+    list-style: none;
+    text-align: center;
+
+    img {
+        margin: 40px;
+        border-radius: 10px;
+
+    }
+
+    li {
+        background-color: rgb(255, 255, 99);
+
+        a {
+            text-decoration: none;
+            color: rgb(22, 4, 138);
+            font-size: 30px;
+            font-weight: bold;
+
+        }
+
+    }
+}
+
+#ciudades {
+    list-style: none;
+    text-align: center;
+
+    img {
+        margin: 40px;
+        border-radius: 10px;
+
+    }
+
+    li {
+        background-color: rgb(255, 255, 99);
+
+        a {
+            text-decoration: none;
+            color: rgb(22, 4, 138);
+            font-size: 30px;
+            font-weight: bold;
+
+        }
+
+    }
+}
+
+#ciudadesadj {
+    list-style: none;
+    text-align: center;
+
+    img {
+        margin: 40px;
+        border-radius: 10px;
+
+    }
+
+    li {
+        background-color: rgb(255, 255, 99);
+
+        a {
+            text-decoration: none;
+            color: rgb(22, 4, 138);
+            font-size: 30px;
+            font-weight: bold;
+
+        }
+
+    }
+}
+
+/*---MAIN DE RECURSOS---*/
+.titulo__recursos {
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgb(255, 255, 99), white);
+
+    p {
+        padding: 10px;
+        text-align: center;
+    }
+}
+
+.subtitulo__recursos {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+
+    h2 {
+        font-size: xx-large;
+        background-color: rgb(255, 255, 99);
+        color: rgb(22, 4, 138);
+    }
+}
+
+/*---MAIN DEL INDEX---*/
+
+.principal {
+    .boton img {
+        width: 50px;
+        height: 50px;
+        position: fixed;
+        bottom: 35px;
+        right: 35px;
+    }
+
+    div {
+        width: 100%;
+        background-color: #FFDE59;
+    }
+
+    P {
+        padding: 10px;
+        text-align: center;
+
+    }
+
+    .unidades {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+
+        div {
+            width: 300px;
+            height: 450px;
+            border: 1px solid gold;
+            margin: 0px;
+            border-radius: 15px 15px;
+            background-color: white;
+
+            h2 {
+                padding: 10px;
+                font-size: 25px;
+                text-align: center;
+            }
+
+            img {
+                width: 300px;
+                height: 300px;
+                margin-bottom: 15px;
+                border-radius: 15px 15px;
+            }
+
+            a {
+                background-color: #03989E;
+                text-decoration: none;
+                padding: 3px;
+                color: #FFDE59;
+                font-size: 25px;
+                margin-top: 10px;
+                margin-left: 110px;
+                border-radius: 5px 5px;
+                justify-content: center;
+
+                &:hover {
+                    background-color: #03989E;
+                    text-decoration: none;
+                    padding: 3px;
+                    color: rgb(255, 255, 255);
+                    font-size: 35px;
+                    margin-top: 10px;
+                    border-radius: 5px 5px;
+                    justify-content: center;
+
+                }
+            }
+
+        }
+    }
 }

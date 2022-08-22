@@ -1,6 +1,9 @@
 /*----------PROPIEDADES GENERALES----------*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
 @import "./variables";
+
+
+
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -20,7 +23,7 @@ h1 {
 }
 
 h2 {
-    color: nth($colores, 4 );
+    color: nth($colores, 4);
 }
 
 h3 {
@@ -28,7 +31,7 @@ h3 {
 }
 
 h4 {
-    color: nth($colores, 6 )
+    color: nth($colores, 6)
 }
 
 p {
@@ -36,9 +39,41 @@ p {
     font-size: 30px;
     text-align: justify;
 }
+
 //* extends
-%flex{
+%flex {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
+}
+
+/*----Grids---*/
+/*.grid__container__dos {
+    color: black;
+    font-size: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 550px 150px;
+    grid-template-areas:
+        "header nav nav"
+        "header nav nav"
+        "aside main main"
+        "footer footer footer";
+}*/
+
+/*----APLICANDO GRIDS---*/
+.grid__container {
+    color: black;
+    font-size: 40px;
+    /*---HABILITO GRILLAS---*/
+    display: grid;
+    /*---DETERMINO FILAS Y COLUMNAS---*/
+   grid-template-columns: 1fr;
+    grid-template-rows: 200px 100px 175px 550px 150px;
+    grid-template-areas: 
+    "header"
+    "nav"
+    "aside"
+    "main"
+    "footer"
 }

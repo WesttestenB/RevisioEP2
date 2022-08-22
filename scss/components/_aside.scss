@@ -1,0 +1,39 @@
+@import "../base/generales";
+@import "../base/mapas";
+@import "../base/mixin";
+@import "../base/variables";
+
+
+.welcome {
+    width: 100%;
+    background-image: url(../img/welcome.png);
+
+    background-repeat: repeat h1 {
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    p {
+        padding: 10px;
+        text-align: center;
+    }
+}
+
+.titulo__contacto {
+    width: 100%;
+    background-color: #ffff63;
+    grid-area: aside;
+
+    div {
+        background-color: #f7f756;
+        padding: 10px;
+        text-align: center;
+        margin-top: 40%;
+        p {
+            padding: 10px;
+            text-align: center;
+        }
+    }
+
+}

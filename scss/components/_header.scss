@@ -4,9 +4,9 @@
 @import "../base/mapas";
 
 header {
-    background-color:nth($colores, $n:1 );
+    background-color: nth($colores, $n: 1);
     @extend %flex;
-    
+
 
     img {
         width: 150px;
@@ -23,12 +23,13 @@ header {
 
                 a {
                     text-decoration: none;
-                    color: nth($list: $colores, $n:3 );
+                    color: nth($list: $colores, $n: 3);
                     font-size: 30px;
-                    text-align: left;
+                    text-align: right;
                     font-weight: bold;
+
                     &:hover {
-                        color: nth($colores, 8 );
+                        color: nth($colores, 8);
                     }
 
                 }
@@ -36,4 +37,45 @@ header {
         }
     }
 
+}
+
+/*---PAGINAS CON GRIDS---*/
+.encabezado {
+    background-color: #03BCC4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+        width: 200px;
+        height: 200px;
+
+    }
+}
+
+/*---NAV---*/
+.menu {
+    ul {
+        li {
+            list-style: none;
+            margin: 20px;
+            display: flex;
+            display: inline-block;
+            
+
+            a {
+                text-decoration: none;
+                color: rgb(22, 4, 138);
+                font-size: 30px;
+                
+                font-weight: bold;
+                text-align: right;
+
+                &:hover {
+                    color: white
+                }
+
+            }
+        }
+    }
 }

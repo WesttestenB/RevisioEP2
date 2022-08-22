@@ -17,3 +17,46 @@
         }
     }
 }
+
+/*---FOOTER DE PÁGINAS CON GRID---*/
+.pie {
+    background-color: #03BCC4;
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    h3{font-size: 20px;
+    }
+    div {
+        .logofooter {
+            width: 130px;
+            height: 130px;
+        }
+        .logoredes {
+            width: 130px;
+            height: 130px;
+        }
+    }
+}
+.pie__contacto {
+    background-color: #03BCC4;
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    h3{font-size: 20px;
+    }
+    div {
+        .logofooter {
+            width: 130px;
+            height: 130px;
+        }
+        .logoredes__contacto {
+            width: 130px;
+            height: 130px;
+        }
+    }
+}
+
+
+
