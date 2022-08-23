@@ -1,4 +1,3 @@
-/*---MAIN DE LOS QUE NO TIENEN GRID---*/
 @import "../base/variables";
 @import "../base/mapas";
 
@@ -283,80 +282,102 @@ main {
         color: rgb(22, 4, 138);
     }
 }
+/*---MAIN DE CONTACTOS---*/
+.titulo__contacto {
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgb(255, 255, 99), white);
 
+    p {
+        padding: 10px;
+        text-align: center;
+    }
+}
 /*---MAIN DEL INDEX---*/
 
 .principal {
-    .boton img {
-        width: 50px;
-        height: 50px;
-        position: fixed;
-        bottom: 35px;
-        right: 35px;
-    }
-
-    div {
-        width: 100%;
-        background-color: #FFDE59;
-    }
-
-    P {
-        padding: 10px;
-        text-align: center;
-
-    }
-
-    .unidades {
-        width: 100%;
-        display: flex;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-
-        div {
-            width: 300px;
-            height: 450px;
-            border: 1px solid gold;
-            margin: 0px;
-            border-radius: 15px 15px;
-            background-color: white;
-
-            h2 {
-                padding: 10px;
-                font-size: 25px;
-                text-align: center;
-            }
-
-            img {
-                width: 300px;
-                height: 300px;
-                margin-bottom: 15px;
-                border-radius: 15px 15px;
-            }
-
-            a {
-                background-color: #03989E;
-                text-decoration: none;
-                padding: 3px;
-                color: #FFDE59;
-                font-size: 25px;
-                margin-top: 10px;
-                margin-left: 110px;
-                border-radius: 5px 5px;
-                justify-content: center;
-
-                &:hover {
-                    background-color: #03989E;
-                    text-decoration: none;
-                    padding: 3px;
-                    color: rgb(255, 255, 255);
-                    font-size: 35px;
-                    margin-top: 10px;
-                    border-radius: 5px 5px;
+        .boton img {
+            width: 50px;
+            height: 50px;
+            position: fixed;
+            bottom: 35px;
+            right: 35px;
+        }
+    
+        .welcome {
+                
+                width: 100%;
+                background-image: url(../img/welcome.png);
+    
+                background-repeat: repeat h1 {
                     justify-content: center;
-
+                    text-align: center;
+    
+                }
+        }
+    
+            div {
+                width: 100%;
+                background-color: #FFDE59;
+            }
+    
+            P {
+                padding: 10px;
+                text-align: center;
+    
+            }
+    
+            .unidades {
+                width: 100%;
+                display: flex;
+                justify-content: space-evenly;
+                flex-wrap: wrap;
+    
+                div {
+                    width: 300px;
+                    height: 450px;
+                    border: 1px solid gold;
+                    margin: 0px;
+                    border-radius: 15px 15px;
+                    background-color: white;
+    
+                    h2 {
+                        padding: 10px;
+                        font-size: 25px;
+                        text-align: center;
+                    }
+    
+                    img {
+                        width: 300px;
+                        height: 300px;
+                        margin-bottom: 15px;
+                        border-radius: 15px 15px;
+                    }
+    
+                    a {
+                        background-color: #03989E;
+                        text-decoration: none;
+                        padding: 3px;
+                        color: #FFDE59;
+                        font-size: 25px;
+                        margin-top: 10px;
+                        margin-left: 110px;
+                        border-radius: 5px 5px;
+                        justify-content: center;
+    
+                        &:hover {
+                            background-color: #03989E;
+                            text-decoration: none;
+                            padding: 3px;
+                            color: rgb(255, 255, 255);
+                            font-size: 35px;
+                            margin-top: 10px;
+                            border-radius: 5px 5px;
+                            justify-content: center;
+    
+                        }
+                    }
+    
                 }
             }
-
         }
-    }
-}
+

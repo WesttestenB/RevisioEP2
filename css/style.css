@@ -1,6 +1,4 @@
-@charset "UTF-8";
 /*----------PROPIEDADES GENERALES----------*/
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap");
@@ -38,31 +36,6 @@ header {
   justify-content: space-between;
   align-items: center; }
 
-/*----Grids---*/
-/*.grid__container__dos {
-    color: black;
-    font-size: 40px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 100px 100px 550px 150px;
-    grid-template-areas:
-        "header nav nav"
-        "header nav nav"
-        "aside main main"
-        "footer footer footer";
-}*/
-/*----APLICANDO GRIDS---*/
-.grid__container {
-  color: black;
-  font-size: 40px;
-  /*---HABILITO GRILLAS---*/
-  display: grid;
-  /*---DETERMINO FILAS Y COLUMNAS---*/
-  grid-template-columns: 1fr;
-  grid-template-rows: 200px 100px 175px 550px 150px;
-  grid-template-areas: "header" "nav" "aside" "main" "footer"; }
-
-/*---PAGINAS QUE NO TIENEN GRID--*/
 /*----------PROPIEDADES GENERALES----------*/
 body {
   font-family: 'Roboto', sans-serif; }
@@ -97,30 +70,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center; }
-
-/*----Grids---*/
-/*.grid__container__dos {
-    color: black;
-    font-size: 40px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 100px 100px 550px 150px;
-    grid-template-areas:
-        "header nav nav"
-        "header nav nav"
-        "aside main main"
-        "footer footer footer";
-}*/
-/*----APLICANDO GRIDS---*/
-.grid__container {
-  color: black;
-  font-size: 40px;
-  /*---HABILITO GRILLAS---*/
-  display: grid;
-  /*---DETERMINO FILAS Y COLUMNAS---*/
-  grid-template-columns: 1fr;
-  grid-template-rows: 200px 100px 175px 550px 150px;
-  grid-template-areas: "header" "nav" "aside" "main" "footer"; }
 
 header {
   background-color: #03BCC4; }
@@ -140,7 +89,7 @@ header {
       header nav ul li a:hover {
         color: white; }
 
-/*---PAGINAS CON GRIDS---*/
+/*---PAGINAS DE INDEX Y CONTACTO ---*/
 .encabezado {
   background-color: #03BCC4;
   display: flex;
@@ -165,7 +114,6 @@ header {
     .menu ul li a:hover {
       color: white; }
 
-/*---MAIN DE LOS QUE NO TIENEN GRID---*/
 .hero p {
   padding: 10px;
   text-align: center; }
@@ -340,6 +288,14 @@ main {
     background-color: #ffff63;
     color: #16048a; }
 
+/*---MAIN DE CONTACTOS---*/
+.titulo__contacto {
+  width: 100%;
+  background-image: linear-gradient(to bottom, #ffff63, white); }
+  .titulo__contacto p {
+    padding: 10px;
+    text-align: center; }
+
 /*---MAIN DEL INDEX---*/
 .principal .boton img {
   width: 50px;
@@ -347,6 +303,13 @@ main {
   position: fixed;
   bottom: 35px;
   right: 35px; }
+
+.principal .welcome {
+  width: 100%;
+  background-image: url(../img/welcome.png);
+  background-repeat: repeat h1;
+    background-repeat-justify-content: center;
+    background-repeat-text-align: center; }
 
 .principal div {
   width: 100%;
@@ -432,30 +395,6 @@ header {
   justify-content: space-between;
   align-items: center; }
 
-/*----Grids---*/
-/*.grid__container__dos {
-    color: black;
-    font-size: 40px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 100px 100px 550px 150px;
-    grid-template-areas:
-        "header nav nav"
-        "header nav nav"
-        "aside main main"
-        "footer footer footer";
-}*/
-/*----APLICANDO GRIDS---*/
-.grid__container {
-  color: black;
-  font-size: 40px;
-  /*---HABILITO GRILLAS---*/
-  display: grid;
-  /*---DETERMINO FILAS Y COLUMNAS---*/
-  grid-template-columns: 1fr;
-  grid-template-rows: 200px 100px 175px 550px 150px;
-  grid-template-areas: "header" "nav" "aside" "main" "footer"; }
-
 #pie {
   background-color: #03BCC4;
   margin: 0px;
@@ -469,7 +408,6 @@ header {
     width: 100px;
     height: 100px; }
 
-/*---FOOTER DE PÁGINAS CON GRID---*/
 .pie {
   background-color: #03BCC4;
   margin: 0px;
@@ -499,88 +437,6 @@ header {
   .pie__contacto div .logoredes__contacto {
     width: 130px;
     height: 130px; }
-
-/*----------PROPIEDADES GENERALES----------*/
-body {
-  font-family: 'Roboto', sans-serif; }
-
-* {
-  margin: 0%;
-  padding: 0%;
-  box-sizing: border-box; }
-
-h1 {
-  color: navy;
-  font-weight: bold;
-  font-size: 60px;
-  letter-spacing: 2px;
-  text-align: center; }
-
-h2 {
-  color: #fafafb; }
-
-h3 {
-  color: darkslategray; }
-
-h4 {
-  color: cadetblue; }
-
-p {
-  color: #363030;
-  font-size: 30px;
-  text-align: justify; }
-
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center; }
-
-/*----Grids---*/
-/*.grid__container__dos {
-    color: black;
-    font-size: 40px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 100px 100px 550px 150px;
-    grid-template-areas:
-        "header nav nav"
-        "header nav nav"
-        "aside main main"
-        "footer footer footer";
-}*/
-/*----APLICANDO GRIDS---*/
-.grid__container {
-  color: black;
-  font-size: 40px;
-  /*---HABILITO GRILLAS---*/
-  display: grid;
-  /*---DETERMINO FILAS Y COLUMNAS---*/
-  grid-template-columns: 1fr;
-  grid-template-rows: 200px 100px 175px 550px 150px;
-  grid-template-areas: "header" "nav" "aside" "main" "footer"; }
-
-.welcome {
-  width: 100%;
-  background-image: url(../img/welcome.png);
-  background-repeat: repeat h1;
-    background-repeat-justify-content: center;
-    background-repeat-text-align: center; }
-  .welcome p {
-    padding: 10px;
-    text-align: center; }
-
-.titulo__contacto {
-  width: 100%;
-  background-color: #ffff63;
-  grid-area: aside; }
-  .titulo__contacto div {
-    background-color: #f7f756;
-    padding: 10px;
-    text-align: center;
-    margin-top: 40%; }
-    .titulo__contacto div p {
-      padding: 10px;
-      text-align: center; }
 
 /*---RESPONSIVE MAX WIDTH VOCABULARIO---*/
 @media screen and (max-width: 883px) {
@@ -649,13 +505,6 @@ header {
     flex-direction: column; } }
 
 @media screen and (max-width: 921px) {
-  .grid__container {
-    color: black;
-    font-size: 30px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100px 100px 175px 600px 100px;
-    grid-template-areas: "header nav" "header nav" "aside aside" "main main" "footer footer"; }
   .encabezado img {
     width: 150;
     height: 150; }
@@ -671,13 +520,6 @@ header {
     height: 75px; } }
 
 @media screen and (max-width: 906px) {
-  .grid__container {
-    color: black;
-    font-size: 30px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100px 100px 100px 400px 100px;
-    grid-template-areas: "header nav" "header nav" "aside aside" "main main" "footer footer"; }
   .encabezado img {
     width: 100px;
     height: 100px; }
@@ -727,13 +569,6 @@ header {
     justify-content: center; } }
 
 @media screen and (max-width: 746px) {
-  .grid__container {
-    color: black;
-    font-size: 30px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100px 175px 100px 400px 100px;
-    grid-template-areas: "header header" "nav nav" "aside aside" "main main" "footer footer"; }
   .encabezado img {
     width: 75px;
     height: 75px;
@@ -742,26 +577,7 @@ header {
   p {
     display: none; } }
 
-@media screen and (max-width: 601px) {
-  .grid__container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 100px 175px 100px 600px 100px;
-    grid-template-areas: "header" "nav" "aside" "main" "footer"; } }
-
-@media screen and (max-width: 402px) {
-  .grid__container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 100px 175px 100px 900px 100px;
-    grid-template-areas: "header" "nav" "aside" "main" "footer"; } }
-
 @media screen and (max-width: 376px) {
-  .grid__container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 100px 175px 100px 900px 100px;
-    grid-template-areas: "nav" "nav" "aside" "main" "footer"; }
   .encabezado img {
     display: none; }
   .pie div .logofooter {
@@ -774,14 +590,12 @@ header {
     font-size: 10px; } }
 
 /*----RESPONSIVE DE CONTACTO ---*/
-@media screen and (max-width: 652px) {
-  .grid__container__dos {
-    color: black;
-    font-size: 30px;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 200px 100px 100px 600px 100px;
-    grid-template-areas: "header" "nav" "nav" "main" "footer"; }
+@media screen and (max-width: 566px) {
+  main .titulo__contacto h1 {
+    font-size: 40px; }
+  main .titulo__contacto ul {
+    display: flex;
+    flex-direction: column; }
   .titulo__contacto {
     display: none; }
   .menu ul li a {

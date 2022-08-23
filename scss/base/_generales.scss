@@ -46,34 +46,3 @@ p {
     justify-content: space-between;
     align-items: center;
 }
-
-/*----Grids---*/
-/*.grid__container__dos {
-    color: black;
-    font-size: 40px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 100px 100px 550px 150px;
-    grid-template-areas:
-        "header nav nav"
-        "header nav nav"
-        "aside main main"
-        "footer footer footer";
-}*/
-
-/*----APLICANDO GRIDS---*/
-.grid__container {
-    color: black;
-    font-size: 40px;
-    /*---HABILITO GRILLAS---*/
-    display: grid;
-    /*---DETERMINO FILAS Y COLUMNAS---*/
-   grid-template-columns: 1fr;
-    grid-template-rows: 200px 100px 175px 550px 150px;
-    grid-template-areas: 
-    "header"
-    "nav"
-    "aside"
-    "main"
-    "footer"
-}

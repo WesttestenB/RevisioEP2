@@ -187,19 +187,6 @@
 }
 
 @media screen and (max-width:921px) {
-    .grid__container {
-        color: black;
-        font-size: 30px;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 100px 100px 175px 600px 100px;
-        grid-template-areas:
-            "header nav"
-            "header nav"
-            "aside aside"
-            "main main"
-            "footer footer"
-    }
 
     .encabezado img {
         width: 150;
@@ -226,19 +213,6 @@
 }
 
 @media screen and (max-width:906px) {
-    .grid__container {
-        color: black;
-        font-size: 30px;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 100px 100px 100px 400px 100px;
-        grid-template-areas:
-            "header nav"
-            "header nav"
-            "aside aside"
-            "main main"
-            "footer footer"
-    }
 
     .encabezado img {
         width: 100px;
@@ -314,19 +288,6 @@
 }
 
 @media screen and (max-width:746px) {
-    .grid__container {
-        color: black;
-        font-size: 30px;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 100px 175px 100px 400px 100px;
-        grid-template-areas:
-            "header header"
-            "nav nav"
-            "aside aside"
-            "main main"
-            "footer footer"
-    }
 
     .encabezado img {
         width: 75px;
@@ -340,46 +301,7 @@
     }
 }
 
-@media screen and (max-width:601px) {
-    .grid__container {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 100px 175px 100px 600px 100px;
-        grid-template-areas:
-            "header"
-            "nav"
-            "aside"
-            "main"
-            "footer"
-    }
-}
-
-@media screen and (max-width:402px) {
-    .grid__container {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 100px 175px 100px 900px 100px;
-        grid-template-areas:
-            "header"
-            "nav"
-            "aside"
-            "main"
-            "footer"
-    }
-}
-
 @media screen and (max-width:376px) {
-    .grid__container {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 100px 175px 100px 900px 100px;
-        grid-template-areas:
-            "nav"
-            "nav"
-            "aside"
-            "main"
-            "footer"
-    }
 
     .encabezado img {
         display: none;
@@ -402,20 +324,21 @@
 
 /*----RESPONSIVE DE CONTACTO ---*/
 
-@media screen and (max-width:652px) {
-    .grid__container__dos {
-        color: black;
-        font-size: 30px;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 200px 100px 100px 600px 100px;
-        grid-template-areas:
-            "header"
-            "nav"
-            "nav"
-            "main"
-            "footer"
-    }
+
+    @media screen and (max-width:566px) {
+        main {
+            .titulo__contacto {
+                h1 {
+                    font-size: 40px;
+    
+                }
+    
+                ul {
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+        }
 
     .titulo__contacto {
         display: none;
@@ -444,5 +367,4 @@
     .pie__contacto h3 {
         display: none;
     }
-
 }
